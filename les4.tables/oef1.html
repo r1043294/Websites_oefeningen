@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            margin: 20px;
+        }
+        table.border{
+            margin: 1em;
+            /*1em means "equal to the current font size" */
+            border: solid 1px darkblue;
+            border-collapse: collapse;
+            /* separate; */
+        }
+        table.border td {
+            border: solid 1px darkblue;
+            padding: 25px;
+        }
+        table.border th {
+            border: solid 1px darkblue;
+            padding: 5px;
+            background-color:  #082433;
+            color: white;
+        }
+        caption{
+            padding: 10px;
+            caption-side: bottom;
+        }
+        #h{
+            padding: 15px;
+        }
+        .hr{
+            background-color:darkblue;
+            height: 1px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Webcursus HTML</h1>
+    <hr>
+    <table class="border">
+        <tr>
+            <th id="h">Entiteit</th>
+            <th>Betekenis</th>
+        </tr>
+        <tr>
+            <td>&</td>
+            <td>ampersand</td> 
+        </tr>
+        <tr>
+            <td><</td>
+            <td>les-than</td>
+        </tr>
+        <tr>
+            <td>></td>
+            <td>greater-than</td>
+        </tr>
+        <tr>
+            <td>©</td>
+            <td>copyright</td>
+        </tr>
+        <tr>
+            <td>€</td>
+            <td>euro</td>
+        </tr>
+        <caption>“Overzicht van entiteite</caption>
+    </table>
+
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            margin: 20px;
+        }
+        table.border{
+            margin: 1em;
+            /*1em means "equal to the current font size" */
+            border: solid 2px #c03d1e;
+            border-collapse: collapse;
+            /* separate; */
+        }
+        table.border td {
+            border: solid 2px #c03d1e;
+            padding: 25px;
+        }
+        table.border th {
+            border: solid 2px #c03d1e;
+            padding: 5px;
+            background-color: #f4c4ba;
+        }
+        caption{
+            padding: 10px;
+            caption-side: bottom;
+        }
+
+
+    </style>
+</head>
+<body>
+    <table class="border">
+        <tr>
+            <th>Cel1</th>
+            <th>Cel2</th>
+            <th>Samengevoegd</th>
+        </tr>
+        <tr>
+            <Th rowspan="2">Samengevoegd</Th>
+            <td>Cel5</td>
+            <td>Cel6</td>
+        </tr>
+        <tr>
+            <Td>Cel8</Td>
+            <td>Cel9</td>
+        </tr>
+     </table>
+    
+     <table class="border">
+        <tr>
+            <td>11</td>
+            <td>12</td>
+            <td>13</td>
+        </tr>
+        <tr>
+            <td>21</td>
+            <td rowspan="2" colspan="2"></td>
+        </tr>
+        <tr>
+            <td>31</td>
+        </tr>
+     </table>
+     <table class="border">
+        <tr>
+            <th>Voornaam</th>
+            <td>Arthur</td>
+        </tr>
+        <tr>
+            <th>Famielienaam</th>
+            <td>Peeters</td>
+        </tr>
+        <tr>
+            <td>Talenkennis</td>
+            <td>
+                <table class="border">
+                    <caption>tabel 1:Stripverhalen</caption>
+                    <tr>
+                        <th>Nederlands</th>
+                        <th>Frans</th>
+                        <th>Engels</th>
+                    </tr>
+                    <tr>
+                        <td>moedertaal</td>
+                        <td>goed</td>
+                        <td>zeergoed</td>
+                    </tr>
+                 </table>
+            </body>
+            </td>
+        </tr>
+     </table>
+    
+</html>
